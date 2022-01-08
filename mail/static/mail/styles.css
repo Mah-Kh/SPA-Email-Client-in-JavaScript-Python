@@ -1,0 +1,16 @@
+textarea {
+    min-height: 400px;
+}
+
+#email-container, #archive-container, #sent-container {
+	border: 1px solid #eee;
+	padding: 5px;
+	display: flex;
+	cursor: pointer;
+}
+
+#email-container > div,
+#archive-container > div,
+#sent-container > div {
+	width: 33.33%;
+}
